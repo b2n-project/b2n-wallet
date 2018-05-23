@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=bitcoin2network Wallet
+Comment=bitcoin2network wallet
+Exec=b2nwallet %U
+Terminal=false
+Type=Application
+Icon=bitcoin2network
+MimeType=x-scheme-handler/bitcoin2network;
+Categories=Office;Finance;
+Name[en_US]=b2nwallet.desktop
