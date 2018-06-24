@@ -17,51 +17,51 @@ DarkStyle::DarkStyle() : Style("dark", "Dark") {
 }
 
 QString DarkStyle::statusBarBackgroundColor() const {
-  return "#202020";
+  return "#010101";
 }
 
 QString DarkStyle::statusBarFontColor() const {
-  return "#ffffff";
+  return "#ffaa00";
 }
 
 QString DarkStyle::headerBackgroundColor() const {
-  return "#202020";
+  return "#010101";
 }
 
 QString DarkStyle::headerBorderColor() const {
-  return "#202020";
+  return "#010101";
 }
 
 QString DarkStyle::addressFontColor() const {
-  return "#ffffff";
+  return "#dd6611";
 }
 
 QString DarkStyle::balanceFontColor() const {
-  return "#ffffff";
+  return "#dd6611";
 }
 
 QString DarkStyle::toolButtonBackgroundColorNormal() const {
-  return "#2e4558";
+  return "#010101";
 }
 
 QString DarkStyle::toolButtonBackgroundColorHover() const {
-  return "#253949";
+  return "#99222333";
 }
 
 QString DarkStyle::toolButtonBackgroundColorPressed() const {
-  return "#1c2e3c";
+  return "#aa111222";
 }
 
 QString DarkStyle::toolButtonFontColorNormal() const {
-  return "#ffffff";
+  return "#ededed";
 }
 
 QString DarkStyle::toolButtonFontColorDisabled() const {
-  return "#b2ffffff";
+  return "#b2ededed";
 }
 
 QString DarkStyle::toolBarBorderColor() const {
-  return "#2e4558";
+  return "#010101";
 }
 
 QString DarkStyle::getWalletSyncGifFile() const {

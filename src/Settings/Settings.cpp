@@ -77,7 +77,7 @@ Settings& Settings::instance() {
 Settings::Settings() : m_p2pBindPort(0), m_cmdLineParser(nullptr) {
   m_defaultPoolList << "pool.bitcoin2.network:3333";
   m_defaultPoolList << "crypto9coin.cf:19639";
-  m_defaultPoolList << "B2N.hashpool.frl:10533";
+
 
  
   
@@ -118,7 +118,7 @@ void Settings::init() {
         QJsonObject optimizationObject;
    optimizationObject.insert(OPTION_WALLET_OPTIMIZATION_ENABLED, true);
    optimizationObject.insert(OPTION_WALLET_OPTIMIZATION_FUSION_TARNSACTIONS_IS_VISIBLE, true);
-    m_settings.insert(OPTION_NODE_REMOTE_RPC_URL, QString("52.56.157.200:19635"));
+    m_settings.insert(OPTION_NODE_REMOTE_RPC_URL, QString("rwallet.bitcoin2.network:19635"));
     
     m_settings.insert(OPTION_WALLET_OPTIMIZATION, optimizationObject);
     
@@ -186,7 +186,7 @@ const Style& Settings::getStyle(quintptr _styleIndex) const {
 
 const Style& Settings::getCurrentStyle() const {
   QReadLocker lock(&m_lock);
-  QString theme = m_settings.contains(OPTION_WALLET_THEME) ? m_settings.value(OPTION_WALLET_THEME).toString() : "light";
+  QString theme = m_settings.contains(OPTION_WALLET_THEME) ? m_settings.value(OPTION_WALLET_THEME).toString() : "dark";
   return *m_styles[theme];
 }
 

@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "bitcoin2network"
-#define MyAppVersion "1.1.0"
+#define MyAppVersion "1.3.0"
 #define MyAppPublisher "bitcoin2network"
 #define MyAppURL "https://bitcoin2.network/"
 #define MyAppExeName "B2Nwallet.exe"

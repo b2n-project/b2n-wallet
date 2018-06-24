@@ -14,9 +14,9 @@
 
 namespace WalletGui {
 
-class DarkStyle : public Style {
+class GalaxyStyle : public Style {
 public:
-  DarkStyle();
+  GalaxyStyle();
 
   virtual QString statusBarBackgroundColor() const override;
   virtual QString statusBarFontColor() const override;
@@ -30,6 +30,7 @@ public:
   virtual QString toolButtonFontColorNormal() const override;
   virtual QString toolButtonFontColorDisabled() const override;
   virtual QString toolBarBorderColor() const override;
+
   virtual QString getWalletSyncGifFile() const override;
   virtual QPixmap getLogoPixmap() const override;
   virtual QPixmap getBalanceIcon() const override;
