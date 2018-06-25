@@ -25,7 +25,7 @@ QString DarkStyle::statusBarFontColor() const {
 }
 
 QString DarkStyle::headerBackgroundColor() const {
-  return "#010101";
+  return "#fa010101";
 }
 
 QString DarkStyle::headerBorderColor() const {
@@ -41,7 +41,7 @@ QString DarkStyle::balanceFontColor() const {
 }
 
 QString DarkStyle::toolButtonBackgroundColorNormal() const {
-  return "#010101";
+  return "#f2010101";
 }
 
 QString DarkStyle::toolButtonBackgroundColorHover() const {

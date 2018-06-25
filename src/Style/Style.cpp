@@ -29,7 +29,7 @@ QString Style::getStyleName() const {
 }
 
 QString Style::fontFamily() const {
-  return "Open Sans";
+  return "Ubuntu";
 }
 
 int Style::viewItemHeight() const {

@@ -17,7 +17,7 @@ namespace WalletGui {
 class Style {
 public:
   enum FontSize {
-    FONT_TINY = 10, FONT_SMALL = 11, FONT_NORMAL = 12, FONT_EXTRA_NORMAL = 13, FONT_LARGE = 14, FONT_EXTRA_LARGE = 16, FONT_HUGE = 20
+    FONT_TINY = 12, FONT_SMALL = 12, FONT_NORMAL = 13, FONT_EXTRA_NORMAL = 14, FONT_LARGE = 15, FONT_EXTRA_LARGE = 16, FONT_HUGE = 20
   };
 
   virtual ~Style();
