@@ -7,6 +7,6 @@ cd build
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe" bitcoin2network.vcxproj /p:Configuration=Release
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe" ZERO_CHECK.vcxproj /p:Configuration=Release
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin" B2Nwallet.vcxproj /p:Configuration=Release
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe" B2Nwallet.vcxproj /p:Configuration=Release
 
 "C:\Program Files (x86)\Inno Setup 5\Compil32.exe" /cc "..\innosetup\bitcoin2network_64bits.iss"
