@@ -3,7 +3,7 @@ copy CMakeLists_Windows_32bits.txt CMakeLists.txt
 mkdir build
 del /s /q build
 cd build
-"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -G  "Visual Studio 14 2015"  ..
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -G  "Visual Studio 15 2017"  ..
 
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe" bitcoin2network.vcxproj /p:Configuration=Release
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe" ZERO_CHECK.vcxproj /p:Configuration=Release
