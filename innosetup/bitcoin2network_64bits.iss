@@ -61,11 +61,11 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "..\build\Release\B2Nwallet.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\build\Release\B2Nwallet.exp"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\build\Release\B2Nwallet.lib"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Qt\5.10.1\msvc2015_64\bin\Qt5Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Qt\5.10.1\msvc2015_64\bin\Qt5Network.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Qt\5.10.1\msvc2015_64\bin\Qt5Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Qt\5.10.1\msvc2015_64\bin\Qt5Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Qt\5.10.1\msvc2015_64\plugins\platforms\*.dll"; DestDir: "{app}\platforms"; Flags: ignoreversion
+Source: "C:\Qt\Qt5.9.5\5.9.5\msvc2015_64\bin\Qt5Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Qt\Qt5.9.5\5.9.5\msvc2015_64\bin\Qt5Network.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Qt\Qt5.9.5\5.9.5\msvc2015_64\bin\Qt5Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Qt\Qt5.9.5\5.9.5\msvc2015_64\bin\Qt5Core.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Qt\Qt5.9.5\5.9.5\msvc2015_64\plugins\platforms\*.dll"; DestDir: "{app}\platforms"; Flags: ignoreversion
 
 [Icons]
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
