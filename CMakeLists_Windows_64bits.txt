@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0.2)
 include(bitcoin2network.cmake)
 
 if(WIN32) 
-#"C:\Program Files\CMake\bin\cmake.exe" -G  "Visual Studio 14 2015 Win64" ..
+#"C:\Program Files\CMake\bin\cmake.exe" -G  "Visual Studio 15 2017 Win64" ..
 #msbuild bitcoin2network.sln /p:Configuration=Release
 					 
 set(BOOST_LIBRARYDIR C:/local/boost_1_64_0/lib64-msvc-14.0)
