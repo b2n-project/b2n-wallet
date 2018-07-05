@@ -62,8 +62,8 @@ const quint64 DEFAULT_OPTIMIZATION_PERIOD = 1000 * 60 * 5; // 5 minutes
 const quint64 DEFAULT_OPTIMIZATION_THRESHOLD = 10000000000;
 const quint64 DEFAULT_OPTIMIZATION_MIXIN = 0;
 
-const quint64 VERSION_MAJOR = 1;
-const quint64 VERSION_MINOR = 2;
+const quint64 VERSION_MAJOR = 2;
+const quint64 VERSION_MINOR = 1;
 
 
 }
