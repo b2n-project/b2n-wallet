@@ -6,7 +6,7 @@ if(WIN32)
 #"C:\Program Files\CMake\bin\cmake.exe" -G  "Visual Studio 15 2017 Win64" ..
 #msbuild bitcoin2network.sln /p:Configuration=Release
 					 
-set(BOOST_LIBRARYDIR C:/local/boost_1_64_0/lib64-msvc-14.0)
+set(BOOST_LIBRARYDIR C:/local/boost_1_64_0/lib64-msvc-14.1)
 set(BOOST_INCLUDEDIR C:/local/boost_1_64_0/boost)
 set(BOOST_ROOT C:/local/boost_1_64_0)
 #b2 variant=debug,release link=static runtime-link=static address-model=64
@@ -48,7 +48,7 @@ ExternalProject_Add(bitcoin2network
         -DSTATIC:BOOL=OFF
         -DBoost_USE_STATIC_LIBS:BOOL=ON
         -DBoost_USE_STATIC_RUNTIME:BOOL=OFF
-		-DBOOST_INCLUDEDIR="C:/local/boost_1_64_0/lib64-msvc-14.0"
+		-DBOOST_INCLUDEDIR="C:/local/boost_1_64_0/lib64-msvc-14.1"
         INSTALL_COMMAND ""
    )
 
