@@ -58,12 +58,12 @@ const char OPTION_PRIVACY_PARAMS[] = "privacyParams";
 const char OPTION_PRIVACY_NEWS_ENABLED[] = "newsEnabled";
 
 const char DEFAULT_WALLET_FILE_NAME[] = "b2nwallet.wallet";
-const quint64 DEFAULT_OPTIMIZATION_PERIOD = 1000 * 60 * 5; // 5 minutes
+const quint64 DEFAULT_OPTIMIZATION_PERIOD = 1000 * 60 * 1; // 1 minutes
 const quint64 DEFAULT_OPTIMIZATION_THRESHOLD = 10000000000;
 const quint64 DEFAULT_OPTIMIZATION_MIXIN = 0;
 
 const quint64 VERSION_MAJOR = 2;
-const quint64 VERSION_MINOR = 1;
+const quint64 VERSION_MINOR = 2;
 
 
 }
@@ -75,8 +75,12 @@ Settings& Settings::instance() {
 
 
 Settings::Settings() : m_p2pBindPort(0), m_cmdLineParser(nullptr) {
-  m_defaultPoolList << "pool.bitcoin2.network:3333";
+  m_defaultPoolList << "b2n.simpool.xyz:3363";
+  m_defaultPoolList << "b2n.miningcache.org:1122";
   m_defaultPoolList << "crypto9coin.cf:19639";
+  m_defaultPoolList << "b2n.youpool.io:3366";
+  m_defaultPoolList << "pool.bitcoin2.network:3333";
+  m_defaultPoolList << "eu-miningcache.club:1122";
 
 
  
