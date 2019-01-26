@@ -58,12 +58,12 @@ const char OPTION_PRIVACY_PARAMS[] = "privacyParams";
 const char OPTION_PRIVACY_NEWS_ENABLED[] = "newsEnabled";
 
 const char DEFAULT_WALLET_FILE_NAME[] = "b2nwallet.wallet";
-const quint64 DEFAULT_OPTIMIZATION_PERIOD = 1000 * 60 * 1; // 1 minutes
+const quint64 DEFAULT_OPTIMIZATION_PERIOD = 1000 * 60 * 5; // 5 minutes
 const quint64 DEFAULT_OPTIMIZATION_THRESHOLD = 10000000000;
 const quint64 DEFAULT_OPTIMIZATION_MIXIN = 0;
 
-const quint64 VERSION_MAJOR = 2;
-const quint64 VERSION_MINOR = 2;
+const quint64 VERSION_MAJOR = 3;
+const quint64 VERSION_MINOR = 1;
 
 
 }
@@ -122,7 +122,7 @@ void Settings::init() {
         QJsonObject optimizationObject;
    optimizationObject.insert(OPTION_WALLET_OPTIMIZATION_ENABLED, true);
    optimizationObject.insert(OPTION_WALLET_OPTIMIZATION_FUSION_TARNSACTIONS_IS_VISIBLE, true);
-    m_settings.insert(OPTION_NODE_REMOTE_RPC_URL, QString("rwallet.bitcoin2.network:19635"));
+    m_settings.insert(OPTION_NODE_REMOTE_RPC_URL, QString("rwallet.bitcoin2.network:19935"));
     
     m_settings.insert(OPTION_WALLET_OPTIMIZATION, optimizationObject);
     
