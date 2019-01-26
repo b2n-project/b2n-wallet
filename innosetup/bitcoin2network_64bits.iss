@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "bitcoin2network"
-#define MyAppVersion "1.3.0"
+#define MyAppVersion "3.1.0"
 #define MyAppPublisher "bitcoin2network"
 #define MyAppURL "https://bitcoin2.network/"
 #define MyAppExeName "B2Nwallet.exe"
@@ -11,7 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{dec39f5a-3bbd-7e4f-06e7-866fe0f9e4ba}
+AppId={{eed3af6a-4bcd-8e5f-16f7-967ff019f4ca}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
